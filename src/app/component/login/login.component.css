@@ -1,0 +1,257 @@
+
+.register{
+    margin: 100px;
+    background-color:#1b3d4b ;
+     
+    }
+    .register {
+       
+        background: -webkit-linear-gradient(bottom, #2c6178, #5aaed3);
+        margin-top: 120px;
+        margin-bottom: 50px;
+        padding: 3%;
+        font-family: 'BenchNine', sans-serif;
+    
+       
+    
+        text-align: center;
+        transition: 0.25s;
+        margin-top: 100px
+    }
+    
+    .register input[type="text"],
+    .register input[type="password"] {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #3498db;
+        padding: 10px 10px;
+        width: 60%;
+        outline: none;
+        color:black;
+    
+        border-radius: 24px;
+        transition: 0.25s
+    }
+    
+    .register h1 {
+        color:#1b3d4b ;
+        text-transform: uppercase;
+        font-weight:bold;
+        font-size: 30px;
+        font-family: 'BenchNine', sans-serif;
+    }
+    
+    .register input[type="text"]:focus,
+    .register input[type="password"]:focus {
+        width: 300px;
+        border-color: #2ecc71;
+        color:black;
+    }
+    
+    .register input[type="submit"] {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #2ecc71;
+        padding: 14px 40px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+        background-color:#2c6178 ;
+        font-weight: 600;
+        width: 30%;
+    }
+    
+    .register input[type="submit"]:hover {
+        background: #2ecc71
+    }
+    
+    
+    
+    ul.social-network {
+        list-style: none;
+        display: inline;
+        margin-left: 0 !important;
+        padding: 0;
+      
+    
+    }
+    
+    ul.social-network li {
+        display: inline;
+        margin: 0 5px;
+        color:black;
+    }
+    
+    .social-network a.icoFacebook:hover {
+        background-color: #3B5998
+    }
+    
+    .social-network a.icoTwitter:hover {
+        background-color: #33ccff
+    }
+    
+    .social-network a.icoGoogle:hover {
+        background-color: #BD3518
+    }
+    
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoTwitter:hover i,
+    .social-network a.icoGoogle:hover i {
+        color: rgb(39, 39, 161);
+    }
+    
+    a.socialIcon:hover,
+    .socialHoverClass {
+        color: rgb(39, 39, 161);
+    }
+    
+    .social-circle li a {
+        display: inline-block;
+        position: relative;
+        margin: 0 auto 0 auto;
+        border-radius: 50%;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        color: rgb(39, 39, 161);
+    }
+    
+    .social-circle li i {
+        margin: 0;
+        line-height: 80px;
+        text-align: center;
+        color: rgb(39, 39, 161);
+    }
+    
+    .social-circle li a:hover i,
+    .triggeredHover {
+        transform: rotate(360deg);
+        transition: all 0.2s
+    }
+    
+    .social-circle i {
+        color: #fff;
+        transition: all 0.8s;
+        transition: all 0.8s;
+        color: rgb(61, 61, 185);
+    }
+    
+    
+    
+    
+    .register{
+        background: -webkit-linear-gradient(left, #2c6178, #5aaed3);
+        margin-top: 120px;
+        margin-bottom: 50px;
+        padding: 3%;
+        font-family: 'BenchNine', sans-serif;
+     
+    }
+    .register-left{
+        text-align: center;
+        color: #fff;
+        margin-top: 4%;
+    }
+    .register-left input{
+        border: none;
+        border-radius: 1.5rem;
+        padding: 2%;
+        width: 60%;
+        background: #f8f9fa;
+        font-weight: bold;
+        color: #383d41;
+        margin-top: 30%;
+        margin-bottom: 3%;
+        cursor: pointer;
+    }
+    .register-right{
+        background: #f8f9fa;
+        border-top-left-radius: 10% 50%;
+        border-bottom-left-radius: 10% 50%;
+    }
+    .register-left img{
+        margin-top: 15%;
+        margin-bottom: 5%;
+        width: 25%;
+        -webkit-animation: mover 2s infinite  alternate;
+        animation: mover 1s infinite  alternate;
+    }
+    @-webkit-keyframes mover {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-20px); }
+    }
+    @keyframes mover {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-20px); }
+    }
+    .register-left p{
+        font-weight: lighter;
+        padding: 12%;
+        
+    }
+    .register .register-form{
+        padding: 10%;
+        
+    }
+    .btnRegister{
+        float: right;
+        margin-top: 10%;
+        border: none;
+        border-radius: 1.5rem;
+        padding: 2%;
+        background: #0062cc;
+        color: #fff;
+        font-weight: 600;
+        width: 50%;
+        cursor: pointer;
+    }
+    .register .nav-tabs{
+        margin-top: 3%;
+        border: none;
+        background: #0062cc;
+        border-radius: 1.5rem;
+        width: 28%;
+        float: right;
+    }
+    .register .nav-tabs .nav-link{
+        padding: 2%;
+        height: 34px;
+        font-weight: 600;
+        color: #fff;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+    }
+    .register .nav-tabs .nav-link:hover{
+        border: none;
+    }
+    .register .nav-tabs .nav-link.active{
+        width: 100px;
+        color: #0062cc;
+        border: 2px solid #0062cc;
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+    }
+    .register-heading{
+        text-align: center;
+        margin-top: 8%;
+        margin-bottom: -15%;
+        color: #495057;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 24px;
+        font-family: 'BenchNine', sans-serif;
+    }
+    p{
+        font-weight: bold;
+        font-size: 20px;
+    }

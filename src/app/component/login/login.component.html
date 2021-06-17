@@ -1,0 +1,48 @@
+
+<!------ Include the above in your HEAD tag ---------->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>  
+
+<div class="container " >
+    <div class="register">
+                <div class="row">
+                    <div class="col-md-2 register-left">
+                        <h3>Bienvenue</h3>
+                        <p> Connectez-Vous !</p>
+                        
+                    </div>
+                    
+                    <div class="col-md-10 register-right">
+                      
+                        <div class="tab-content" id="myTabContent">
+                            <div class="" ngForm id="home" role="tabpanel" aria-labelledby="home-tab" #frm="ngForm">
+                                
+                                <div class="row register-form">
+           
+                                    <div class="col-md-12">
+                                            <div class="form-group">
+                                                <h1 >Se connecter</h1>
+                                                    <p class="text-muted"> Veuillez rentrez votre nom d'utilisateur et mot de passe !</p>
+                                                    <input type="text" ngModel  #userName="ngModel"name="username" placeholder="Nom d'utilisateur" [(ngModel)]="_userName">
+                                                    <input type="password"  ngModel  #userPassword="ngModel" name="password" placeholder="mot de passe"[(ngModel)]="_password">
+                                                    <div class="alert alert-danger" *ngIf="!loged && userName.touched && userPassword.touched  " >Votre compte ou mot de passe est incorrect</div>
+                                                    
+                                                    <input type="submit" name="" value="Se connecter" (click)="checkLogin()">
+                                                    <div class="col-md-12">
+                                                        <ul class="social-network social-circle">
+                                                        
+                                                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                                            <li> <a href=""><i class="fa fa-skype"></i></a></li>
+                                                        </ul>
+                                                     </div>
+                                             </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
